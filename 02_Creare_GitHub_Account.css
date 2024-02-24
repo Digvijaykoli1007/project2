@@ -1,0 +1,41 @@
+/*
+What is Readme.md
+- md ==> MArk down
+- This file gives information to other users what is inside the project/ application
+- And other important msg is given here
+- Yashraj Yadav told me about it. Hope he is okay
+
+Configuring Git
+
+git config --global user.name "My Name"
+git config --global user.email "someone@gmail.com"
+$ git config --list
+
+Clone file => Cloning a repository on our local machine
+git clone <- link ->
+
+Status - Display the state of the code
+
+- File Status LifeCycle
+
+1. Untracked  -->       " git add . "
+It is untracked by git
+This files are tracked by using " add " and becomes unmodified files
+- Add the file to make unmodified
+
+2. Unmodified  --> This is normal state of file
+-- When we add a new file then that file is Untracked
+-- And the older file is unmodified file
+- Edit the file to make modified
+
+3. Modified --> The unmodified file is modified and becomes modified
+- Stage the file to make Staged
+
+4. Staged --> The modified file is staged and again converted into unmodified
+- Commit the file to make unmodified i.e. final state
+
+5. Unmodified (Final State)
+- We can also remove file once we complete above process
+
+
+*/
